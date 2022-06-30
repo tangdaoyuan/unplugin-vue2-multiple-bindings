@@ -1,6 +1,6 @@
 export interface Options {
   verbose?: boolean
-  sourcemap: boolean
+  enable: boolean
 }
 
 export type GeneralOptions = Partial<Options>
